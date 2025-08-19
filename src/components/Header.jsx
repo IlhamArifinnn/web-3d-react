@@ -52,7 +52,7 @@ const Header = () => {
             data-aos-easing="linear"
             data-aos-duration={1000 + index * 500}
             className="text-base tracking-wider transition-colors hover:text-yellow-400 z-50"
-            href="#"
+            href={`/${item.toLowerCase()}`}
           >
             {item}
           </a>
@@ -87,7 +87,7 @@ const Header = () => {
               <a
                 key={i}
                 className="text-base tracking-wider transition-colors hover:text-gray-300 z-50"
-                href="#"
+                href={`/${item.toLowerCase()}`}
                 onClick={() => setIsMobile(false)}
               >
                 {item}
