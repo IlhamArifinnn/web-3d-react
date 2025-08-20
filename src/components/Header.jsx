@@ -40,7 +40,7 @@ const Header = () => {
         data-aos-duration="1500"
         className="text-3xl md:text-4xl lg:text-5xl font-light m-0"
       >
-        <a href="#">IlhamArifinnn</a>
+        <a href="/">IlhamArifinnn</a>
       </h1>
 
       {/* Desktop navigation */}

@@ -3,8 +3,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import About from "./pages/About";
 import { Route, Routes } from "react-router";
-import Home from "./pages/Home";
 import Layout from "./components/Layout";
+import Home from "./pages/Home";
 
 function App() {
   useEffect(() => {
@@ -18,6 +18,7 @@ function App() {
     <>
       <Layout>
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
         </Routes>
